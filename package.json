@@ -1,0 +1,20 @@
+{
+  "name": "ccwc",
+  "version": "1.0.0",
+  "description": "my rendition of the unix wc tool",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ccwc"
+  ],
+  "bin": {
+    "ccwc": "./bin/index.js"
+  },
+  "author": "moo-se",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
